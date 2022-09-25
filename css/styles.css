@@ -5,6 +5,10 @@ body{
 .btnself-orange{
   background-color: #F05454;
 }
+.btnself-orange:hover{
+  /* Not the best approach. Must be change in the future */
+  background-color: #d31212 !important;  
+}
 .header{
   background-color: #30475E;
 }
