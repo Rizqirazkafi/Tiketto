@@ -1,3 +1,17 @@
-body {
-  background-color: #30475e;
+body{
+  min-height: 756px;
+  background-color: #222831;
+}
+.btnself-orange{
+  background-color: #F05454;
+}
+.header{
+  background-color: #30475E;
+}
+.italic-text{
+  color: #F05454;
+}
+.form-control{
+  border-radius: 50px;
+  max-width: 1000px;
 }
