@@ -1,21 +1,35 @@
-body{
+body {
   min-height: 756px;
   background-color: #222831;
 }
-.btnself-orange{
-  background-color: #F05454;
+.btnself-orange {
+  background-color: #f05454;
 }
-.btnself-orange:hover{
+.btnself-orange:hover {
   /* Not the best approach. Must be change in the future */
-  background-color: #d31212 !important;  
+  background-color: #d31212 !important;
 }
-.header{
-  background-color: #30475E;
+.btn-rst {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin: 0;
+  padding: 0;
 }
-.italic-text{
-  color: #F05454;
+.header {
+  background-color: #30475e;
 }
-.form-control{
+.italic-text {
+  color: #f05454;
+}
+.form-control {
   border-radius: 50px;
   max-width: 1000px;
 }
+
+/* .price-range-slider input[type="number"]{
+  width: 50px;
+} */
