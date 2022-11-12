@@ -29,3 +29,33 @@ body {
   border-radius: 50px;
   max-width: 1000px;
 }
+.line{
+}
+.line p::before,
+.line p::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 175px;
+    margin: 0 1rem;
+    transform: translateY(-0.2rem);
+}
+
+.log-item{
+  width: 400px;
+  background-color: white;  
+  padding: 1rem;
+
+}
+
+.color-pink{
+  background-color: #F05454;
+
+}
+
+.color-pink a{
+}
+
+.form{
+  width: 400px;
+}
