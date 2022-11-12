@@ -29,33 +29,59 @@ body {
   border-radius: 50px;
   max-width: 1000px;
 }
-.line{
+.line {
 }
 .line p::before,
 .line p::after {
-    display: inline-block;
-    content: "";
-    border-top: .1rem solid white;
-    width: 175px;
-    margin: 0 1rem;
-    transform: translateY(-0.2rem);
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid white;
+  width: 175px;
+  margin: 0 1rem;
+  transform: translateY(-0.2rem);
 }
 
-.log-item{
-  width: 400px;
-  background-color: white;  
-  padding: 1rem;
-
+.log-item {
+  width: 360px;
+  background-color: white;
+  height: 70px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 70px;
 }
 
-.color-pink{
-  background-color: #F05454;
-
+.color-pink {
+  background-color: #f05454;
 }
 
-.color-pink a{
+.color-pink a {
 }
 
-.form{
-  width: 400px;
+.form-rg {
+  width: 360px;
+}
+input {
+  outline: none;
+  border-style: hidden;
+  border-bottom-style: groove;
+  line-height: 70px;
+}
+
+.passwd {
+  border-bottom-style: hidden;
+}
+
+.form-rg input {
+  height: 70px;
+  padding: 20px;
+}
+
+.form-rg input:first-child{
+
+  border-radius: 20px 20px 0 0;
+}
+.form-rg input:last-child{
+  border-radius: 0 0 20px 20px;
 }
