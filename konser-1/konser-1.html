@@ -16,29 +16,24 @@
 
 <body>
     <section id="nav">
-      <div class="container">
-        <header
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4"
-        >
-          <h1
-            class="d-flex align-items-center  col-md-3 mb-2 mb-md-0 "
-          >
-          <a href="/index.html" class="text-light text-decoration-none">Tiketto</a>
-          </h1>
-          <div class="col-md-3 text-end">
-            <a href="/login.html"
-              ><button class="btn me-2 text-light" type="button">
-                Log In
-              </button></a
-            >
-            <a href="/signup.html">
-              <button class="btn btnself-orange text-light" type="button">
-                Sign Up
-              </button>
-            </a>
-          </div>
-        </header>
-      </div>
+        <div class="container">
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+                <h1 class="d-flex align-items-center  col-md-3 mb-2 mb-md-0 ">
+                    <a href="/index.html" class="text-light text-decoration-none">Tiketto</a>
+                </h1>
+                <div class="col-md-3 text-end">
+                    <a href="/login.html"><button class="btn me-2 text-light" type="button">
+                            Log In
+                        </button></a>
+                    <a href="/signup.html">
+                        <button class="btn btnself-orange text-light" type="button">
+                            Sign Up
+                        </button>
+                    </a>
+                </div>
+            </header>
+        </div>
     </section>
     <section>
         <div class="container-fluid">
@@ -90,9 +85,21 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="card p-lg-4 p-sm-2">
-                                    <h3 class=""><b>IDR 1.500.000</b></h3>
-
+                                    <div class="card-body">
+                                        <h3 class=""><b>IDR 1.500.000</b></h3>
+                                        <div class="clearfix inc-box">
+                                            <div class="float-start">
+                                                <p><b>Quantity</b></p>
+                                            </div>
+                                            <div class="float-end qtty-container w-100 d-flex">
+                                                <span id="order-val">0</span>
+                                                <button id="dec">-</button>
+                                                <button id="inc">+</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -103,6 +110,9 @@
             </section>
         </div>
     </section>
+    <script src="/js/jquery-3-6-1.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5fcdf7de4b.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
