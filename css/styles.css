@@ -94,6 +94,6 @@ input {
 
   border-radius: 20px 20px 0 0;
 }
-.form-rg input:last-child{
+.form-rg input[type=password]{
   border-radius: 0 0 20px 20px;
 }
