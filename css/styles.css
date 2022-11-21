@@ -8,6 +8,9 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+.card[data-clickable]{
+  cursor: pointer;
+}
 .icon{
   color: #f05454;
 }
