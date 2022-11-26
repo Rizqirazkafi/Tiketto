@@ -17,9 +17,9 @@ $("#dec").click(function(){
 });
 
 function getCurrentNumber(){
- let number_str = $("#order-val").text();
- number_num = Number(number_str);
- return number_num;
+  let number_str = $("#order-val").text();
+  number_num = Number(number_str);
+  return number_num;
 }
 
 function setNewNumber(number){

@@ -41,8 +41,6 @@ body {
   border-radius: 50px;
   max-width: 1000px;
 }
-.line {
-}
 .line p::before,
 .line p::after {
   display: inline-block;
@@ -66,9 +64,6 @@ body {
 
 .color-pink {
   background-color: #f05454;
-}
-
-.color-pink a {
 }
 
 .form-rg {
